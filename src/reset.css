@@ -1,0 +1,91 @@
+/* reset.css */
+
+/* Remove margin, padding e box-sizing para todos os elementos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define altura de 100% para html e body */
+html,
+body {
+  height: 100%;
+  font-family: "Arial", sans-serif; /* Defina sua fonte padrão aqui, se necessário */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ajusta o comportamento das listas */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Remove o estilo de citação padrão */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* Remove o sublinhado de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Faz as tabelas ficarem mais limpas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Remove o espaçamento padrão em tabelas */
+th,
+td {
+  padding: 0;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Garante que as imagens sejam responsivas */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove a borda padrão e estilo de fundo de inputs e botões */
+input,
+button,
+textarea,
+select {
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Ajusta o estilo dos checkboxes e radios */
+input[type="checkbox"],
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 50%;
+  border: 1px solid #333;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  position: relative;
+}
+
+/* Ajustes visuais para checkboxes e radios selecionados */
+input[type="checkbox"]:checked {
+  background-color: #4caf50;
+}
+
+input[type="radio"]:checked {
+  background-color: #4caf50;
+}
