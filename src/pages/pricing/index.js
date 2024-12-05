@@ -1,7 +1,5 @@
 import { Ball } from "../../components/utils/ball";
-import { theme } from "../../theme";
-import { Container } from "./styles";
-
+import { theme, Container } from "../../theme";
 export const Pricing = ({ project }) => {
   return (
     <Container>

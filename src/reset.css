@@ -16,6 +16,7 @@ body {
   font-family: "Arial", sans-serif; /* Defina sua fonte padrão aqui, se necessário */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Cardo', Arial, Helvetica, sans-serif;
 }
 
 /* Ajusta o comportamento das listas */

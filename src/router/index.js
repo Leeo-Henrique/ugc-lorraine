@@ -6,6 +6,7 @@ import { Pricing } from "../pages/pricing";
 
 import { ThemeProvider } from "styled-components";
 import { theme } from "../theme";
+import { TypesOfJob } from "../pages/typesOfJob";
 
 const Router = () => {
   return (
@@ -15,7 +16,7 @@ const Router = () => {
         {/* <Route path="/" element={<Home />} /> */}
         <Route path="/projects" element={<Projects />} />
         <Route path="/pricing" element={<Pricing />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/types_of_job" element={<TypesOfJob />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects" element={<Projects />} />
