@@ -89,3 +89,9 @@ input[type="checkbox"]:checked {
 input[type="radio"]:checked {
   background-color: #4caf50;
 }
+
+#root{
+  display: flex;
+  justify-content:center;
+  min-height: 100vh;
+}

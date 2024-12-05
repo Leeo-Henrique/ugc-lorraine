@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [];
   return (
     <Container>
-      <h1>portifolio</h1>
+      <h1>Portifolio</h1>
       {projects.map((project) => (
         <Brand project={project} />
       ))}

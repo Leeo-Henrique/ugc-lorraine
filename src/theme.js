@@ -1,4 +1,8 @@
 export const theme = {
+  container: {
+    width: "75%",
+    max_width: "1500px",
+  },
   colors: {
     pink: "#E0ADES",
     lilac: "#B8A8E6",
@@ -6,7 +10,14 @@ export const theme = {
     soft_pink: "#CCA8E6",
     soft_lilac: "#B9A9E9",
     soft_blue: "#AAC1E3",
-  }
+  },
+  media: {
+    mobile: "320px",
+    tablet: "768px",
+    desktop: "1024px",
+    largeDesktop: "1280px",
+    xLargeDesktop: "1600px",
+  },
 };
 
 /* 
