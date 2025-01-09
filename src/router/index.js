@@ -7,13 +7,13 @@ import { Pricing } from "../pages/pricing";
 import { ThemeProvider } from "styled-components";
 import { theme } from "../theme";
 import { TypesOfJob } from "../pages/typesOfJob";
+import { Header } from "../components/header";
 
 const Router = () => {
   return (
     <BrowserRouter>
     <ThemeProvider theme={theme}>
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
         <Route path="/projects" element={<Projects />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/types_of_job" element={<TypesOfJob />} />
